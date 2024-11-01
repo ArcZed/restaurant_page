@@ -1,0 +1,110 @@
+html, body{
+    margin: 0;
+}
+
+body {
+
+    width: 100%;
+    font-size: 1.5vw;
+    
+}
+
+header {
+    background-color: #0A1B27;
+    color: #e3e9e9;
+    position: sticky;
+    top: 0;
+    opacity: 1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+}
+
+button {
+    all: unset;
+    width: 10vw;
+    height: 8vh;
+    border-bottom: 0.3vh solid #e3e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 2vh;
+    min-height: 100vh;
+}
+
+.homepage {
+    display: grid;
+    align-items: center;
+    flex-flow: column;
+    background: linear-gradient(#0A1B27, #A7B0B0);
+}
+
+.homepage .title {
+    font-size: 4vw;
+    color: #A7B0B0;
+}
+
+
+.homepage .resImg {
+    width: 90vw;
+    height: 75vh;
+    background-image: url('./images/resFront.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.homepage .intro {
+    min-height: 80%;
+    min-width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 1vh;
+    padding-top: 2vh;
+}
+
+.homepage .intro .inRes {
+    background-image: url("./images/insideRes.jpg");
+    width: 70vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.homepage .intro .inText {
+    place-self: center;
+    padding: 2vw;
+}
+
+.homepage .review {
+    width: 100%;
+    height: 10vh;
+    background-color: #A7B0B0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh;
+    gap: 2vh;
+    
+}
+
+.homepage .review .author{
+    width: 100%;
+    margin-left: 80%;
+}
+
+
